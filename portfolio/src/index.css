@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+*{
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* top */
+.top {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.blue {
+  width: 20vw;
+  height: 30vw;
+  background-color: blue;
+  overflow: hidden;
+}
+.insideblue {
+  width: 40%;
+  height: 40%;
+  background-color: seagreen;
+}
+.hello {
+  width: 40vw;
+  height: 20vw;
+  background-color: magenta;
+  overflow: hidden;
+}
+
+/* second */
+.second {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.second>p{
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second>div{
+  display: flex;
+  justify-content: space-around;
+}
+.skillimg {
+  width:8vw;
+
+  height:8vw;
+}
+.skillexplaniation{
+  width: 40%;
+  height: 100%;
+  overflow-wrap: break-word;
+}
+.skilllogo{
+  display: flex;
+  width: 40% ;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* project */
+.project{
+  width: 100%;
+ 
+  background-color:black
+}
+.project>div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+/* .project>div>div{
+  width: 100%;
+  height: 100vh;
+  
+} */
+
+.sleft1{
+  width: 50%;
+  height: 100vh;
+  background-color: magenta;
+
+}
+.sright1{
+  width:50%;
+  height: 100vh;
+  background-color: brown;
+}
