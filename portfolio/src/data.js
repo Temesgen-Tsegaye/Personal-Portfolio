@@ -7,6 +7,11 @@ import jest from './images/jest.png'
 import firebase from './images/firebase.png'
 import GSAP from './images/GSAP.png'
 
+import we from './images/weather.PNG'
+import shop from './images/shop.PNG'
+import tempo from './images/tempoo.jpg'
+import memo from './images/memo.PNG'
+
 const pics=[
     {
         image:html,
@@ -40,5 +45,22 @@ const pics=[
         image:GSAP,
         id:8
     },
+    {
+        image:we,
+        id:9,
+    },
+    {
+        image:shop,
+        id:10,
+    },
+    {
+        image:memo,
+        id:11,
+    },
+    {
+        image:tempo,
+        id:12
+    },
+   
 ]
 export default pics

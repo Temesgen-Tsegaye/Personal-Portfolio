@@ -2,10 +2,14 @@ import pics from "../data";
 import { gsap } from "gsap/all";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useLayoutEffect, useRef } from "react";
-gsap.registerPlugin(ScrollTrigger)
+
+gsap.registerPlugin(ScrollTrigger);
 const Skills = () => {
   const second = useRef(null);
-  const images = pics.map((items) => {
+  const images = pics.map((items, index) => {
+    if (index > 7) {
+      return;
+    }
     return (
       <img
         className="skillimg"
@@ -26,22 +30,15 @@ const Skills = () => {
         stagger: 0.1,
         ease: "elastic",
         repeat: -1,
-        
-        
       });
       gsap.to(second.current, {
         backgroundColor: "black",
-        color:'white',
-        duration:4,
+        color: "white",
+        duration: 4,
         scrollTrigger: {
-          trigger:second.current,
-          start:'top bottom',
-          toggleActions:'restart reverse restart reverse'
-          
-        
-          
-
-          
+          trigger: second.current,
+          start: "top bottom",
+          toggleActions: "restart reverse restart reverse",
         },
       });
     }, second);
@@ -53,9 +50,12 @@ const Skills = () => {
       <p>SKILLS</p>
       <div>
         <div className="skillexplaniation">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          voluptatem quis ad consequuntur! Velit ad ex maxime blanditiis ratione
-          rerum, ea hic minima alias illum molestiae explicabo sequi, nemo quis?
+          Fresh graduate of BSc degree in Electrical and computer
+          engineering from Addis Ababa Science and Technology University. I'm
+          studying at The Odin Project(Free MIT licensed online school), in the
+          MERN stack path.Completed front-end part recently and  pursuing to
+          complet Back-End part .JavaScript,React,Redux,Jest,Firebase,GSAP are skills
+          that i acquired on my Journey.
         </div>
         <div className="skilllogo">{images}</div>
       </div>
