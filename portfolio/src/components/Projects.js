@@ -15,8 +15,7 @@ const Project = () => {
   const pro2=useRef(null)
 
   const pro3=useRef(null)
-  // const pro4=useRef(null)
-  // const pro5=useRef(null)
+ 
 
   useLayoutEffect(() => {
     
@@ -108,66 +107,7 @@ const Project = () => {
     }, pro3);
     return () => ctx.revert();
   }, []);
-  // useLayoutEffect(() => {
-    
-  //   let ctx = gsap.context(() => {
-  //     gsap.from(".sleft4", {
-  //       xPercent: -100,
-  //       duration: 1,
-  //       scale: 0.5,
-  //       ease: "bounce.out",
-  //       scrollTrigger: {
-  //         trigger: pro4.current,
-
-  //         start: "top center",
-  //         toggleActions: "restart reverse restart reverse",
-  //       },
-  //     });
-  //     gsap.from(".sright4", {
-  //       xPercent: 100,
-  //       scale: 0.5,
-  //       duration: 1,
-  //       ease: "bounce.out",
-  //       scrollTrigger: {
-  //         trigger: pro4.current,
-
-  //         start: "top center",
-  //         toggleActions: "restart reverse restart reverse",
-  //       },
-  //     });
-  //   }, pro4);
-  //   return () => ctx.revert();
-  // }, []);
-  // useLayoutEffect(() => {
-    
-  //   let ctx = gsap.context(() => {
-  //     gsap.from(".sleft5", {
-  //       xPercent: -100,
-  //       duration: 1,
-  //       scale: 0.5,
-  //       ease: "bounce.out",
-  //       scrollTrigger: {
-  //         trigger: pro5.current,
-
-  //         start: "top center",
-  //         toggleActions: "restart reverse restart reverse",
-  //       },
-  //     });
-  //     gsap.from(".sright5", {
-  //       xPercent: 100,
-  //       scale: 0.5,
-  //       duration: 1,
-  //       ease: "bounce.out",
-  //       scrollTrigger: {
-  //         trigger: pro5.current,
-
-  //         start: "top center",
-  //         toggleActions: "restart reverse restart reverse",
-  //       },
-  //     });
-  //   }, pro5);
-  //   return () => ctx.revert();
-  // }, []);
+  
   
   
   return (

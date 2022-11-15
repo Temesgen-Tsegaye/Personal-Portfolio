@@ -4,7 +4,7 @@ import Top from './components/Top';
 import Skills from './components/Skills';
 import Project from './components/Projects';
 import Contact from './components/Contact';
-import Tempo from './components/Tempo';
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,7 @@ function App() {
      <Skills/>
      <Project/>
      <Contact/>
-     {/* <Tempo/> */}
+     
     </div>
   );
 }
