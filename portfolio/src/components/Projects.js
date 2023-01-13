@@ -24,7 +24,7 @@ const Project = () => {
         xPercent: -100,
         duration: 1,
         scale: 0.5,
-        ease: "bounce.out",
+        // ease: "bounce.out",
         scrollTrigger: {
           trigger: pro1.current,
 
@@ -36,7 +36,7 @@ const Project = () => {
         xPercent: 100,
         scale: 0.5,
         duration: 1,
-        ease: "bounce.out",
+        // ease: "bounce.out",
         scrollTrigger: {
           trigger: pro1.current,
 
@@ -54,7 +54,7 @@ const Project = () => {
         xPercent: -100,
         duration: 1,
         scale: 0.5,
-        ease: "bounce.out",
+        // ease: "bounce.out",
         scrollTrigger: {
           trigger: pro2.current,
 
@@ -66,7 +66,7 @@ const Project = () => {
         xPercent: 100,
         scale: 0.5,
         duration: 1,
-        ease: "bounce.out",
+        // ease: "bounce.out",
         scrollTrigger: {
           trigger: pro2.current,
 
@@ -84,7 +84,7 @@ const Project = () => {
         xPercent: -100,
         duration: 1,
         scale: 0.5,
-        ease: "bounce.out",
+        // ease: "bounce.out",
         scrollTrigger: {
           trigger: pro3.current,
 
@@ -96,7 +96,7 @@ const Project = () => {
         xPercent: 100,
         scale: 0.5,
         duration: 1,
-        ease: "bounce.out",
+        // ease: "bounce.out",
         scrollTrigger: {
           trigger: pro3.current,
 

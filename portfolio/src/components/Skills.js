@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Skills = () => {
   const second = useRef(null);
   const images = pics.map((items, index) => {
-    if (index > 7) {
+    if (index > 11) {
       return;
     }
     return (
@@ -50,12 +50,10 @@ const Skills = () => {
       <p>SKILLS</p>
       <div>
         <div className="skillexplaniation">
-          Fresh graduate of BSc degree in Electrical and computer
-          engineering from Addis Ababa Science and Technology University. I'm
-          studying at The Odin Project(Free MIT licensed online school), in the
-          MERN stack path.Completed front-end part recently and  pursuing to
-          complet Back-End part .JavaScript,React,Redux,Jest,Firebase,GSAP are skills
-          that i acquired on my Journey.
+         
+        Hi, I'm Temesgen, a passionate self-motivated web developer
+         I'm proficient with Vanilla JavaScript, React,Redux,Jest,GSAP,MUI,Firebase,Node.js Express.js, and MongoDB.
+         I've used my creativity and problem-solving skills to design and implement websites for clients.
         </div>
         <div className="skilllogo">{images}</div>
       </div>

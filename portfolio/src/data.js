@@ -11,6 +11,11 @@ import we from './images/weather.PNG'
 import shop from './images/shop.PNG'
 import tempo from './images/tempoo.jpg'
 import memo from './images/memo.PNG'
+import mongo from './images/mongo.png'
+import node from './images/node.png'
+import express from './images/express.png'
+import mui from './images/mui.png'
+
 
 const pics=[
     {
@@ -42,6 +47,22 @@ const pics=[
         id:7
     },
     {
+        image:mongo,
+        id:13
+    },
+    {
+        image:mui,
+        id:14
+    },
+    {
+        image:express,
+        id:12
+    },
+    {
+        image:node,
+        id:12
+    },
+    {
         image:GSAP,
         id:8
     },
@@ -61,6 +82,7 @@ const pics=[
         image:tempo,
         id:12
     },
+   
    
 ]
 export default pics
